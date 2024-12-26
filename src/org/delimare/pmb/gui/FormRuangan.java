@@ -319,9 +319,7 @@ public class FormRuangan extends javax.swing.JFrame {
         jtextnamaruang.setText(jTable1.getValueAt(row, 1).toString());
          jKapasitas.setText(jTable1.getValueAt(row, 2).toString());
            Gedung selected = new Gedung(jTable1.getValueAt(row, 3).toString(), jTable1.getValueAt(row, 4).toString());
-        cbGedung.setSelectedItem(selected);
-        
-        
+        cbGedung.setSelectedItem(selected);              
     }//GEN-LAST:event_jTable1MouseClicked
 
     private void txtCariRuangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCariRuangActionPerformed

@@ -13,8 +13,7 @@ import java.util.Objects;
  * @author smart user
  */
 public class Ruangan {
-
-   
+  
     private String idRuang, NamaRuang,Gedung;
     private int Kapasitas;
     private Gedung gedungObj;
@@ -23,9 +22,7 @@ public class Ruangan {
         this.idRuang = idRuang;
         this.NamaRuang = NamaRuang;
         this.Kapasitas = Kapasitas;
-        this.Gedung = Gedung;
-        
-       
+        this.Gedung = Gedung; 
     }
      public Ruangan (String idRuang, String NamaRuang, int Kapasitas, String Gedung , Gedung gedungObj){
           this.idRuang = idRuang;
@@ -34,11 +31,11 @@ public class Ruangan {
         this.Gedung = Gedung;
         this.gedungObj = gedungObj;
      }
-
+     
     public String getIdRuang() {
         return idRuang;
     }
-
+    
     public void setIdRuang(String idRuang) {
         this.idRuang = idRuang;
     }

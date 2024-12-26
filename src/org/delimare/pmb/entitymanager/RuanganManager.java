@@ -12,7 +12,6 @@ import org.delimare.pmb.entity.Gedung;
 import org.delimare.pmb.entity.Ruangan;
 import org.delimare.pmb.function.Fungsi;
 import org.delimare.pmb.function.Logger;
-
 /**
  *
  * @author smart user
