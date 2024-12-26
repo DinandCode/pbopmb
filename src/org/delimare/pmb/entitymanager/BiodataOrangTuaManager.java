@@ -35,7 +35,8 @@ public class BiodataOrangTuaManager {
     public int insert(BiodataOrangTua bot, Connection con) throws SQLException {
         int result = 0;
 
-        String sql = "INSERT INTO biodata_orangtua (id_calon, id_alamat_ayah, id_alamat_ibu, nama_ayah, pendidikan_ayah, pekerjaan_ayah, status_ayah, pangkat_ayah, jabatan_ayah, instansi_ayah, no_hp_ayah, nip_ayah, nama_ibu, pendidikan_ibu, pekerjaan_ibu, status_ibu, pangkat_ibu, jabatan_ibu, instansi_ibu, no_hp_ibu, nip_ibu) VALUES ("
+        String sql = "INSERT INTO biodata_orangtua (id_calon, id_alamat_ayah, id_alamat_ibu, nama_ayah, pendidikan_ayah, pekerjaan_ayah, "
+                + "status_ayah, pangkat_ayah, jabatan_ayah, instansi_ayah, no_hp_ayah, nip_ayah, nama_ibu, pendidikan_ibu, pekerjaan_ibu, status_ibu, pangkat_ibu, jabatan_ibu, instansi_ibu, no_hp_ibu, nip_ibu) VALUES ("
                 + bot.getIdCalon() + ", "
                 + bot.getIdAlamatAyah() + ", "
                 + bot.getIdAlamatIbu() + ", '"
